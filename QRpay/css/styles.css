@@ -1,0 +1,243 @@
+
+body{
+    
+    font-family:"montserrat";
+}
+.container-fluid{
+    padding:3% 15%; 
+}
+#title{
+    background-color: rgb(16, 16, 20);
+    color: rgb(255, 255, 255);
+   
+}
+.navbar{
+    padding:0 0 4.5rem;
+} 
+.navbar-brand span{
+    font-family:"Ubuntu";
+    font-size:2.5rem;
+    font-weight:bold;
+    color: #ec7a8b;
+}
+.nav-item{
+    padding:0 18px;
+   
+}
+.nav-item span{
+    text-decoration: underline;
+    border-bottom-color: #ec7a8b;
+    padding-bottom: 10px;
+
+}
+.nav-link{
+    font-family:montserrat;
+    font-size:1.2rem;
+    
+}
+.header-right{
+    list-style-type: none;
+    display: flex;
+    right:10%;
+}
+.navbar-toggler-icon{
+    color: black;
+}
+h1{
+  font-family: "Montserrat-black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+p{
+    font-size: 1.2rem;
+}
+h3{
+  font-weight: 20%;
+  font-size: 20px;
+}
+.row a{
+  font-style: 20px;
+}
+
+
+/*button*/
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+
+.title-image {
+    margin-left: 20%;
+    width: 70%;
+    height: 80%;
+    position: relative;
+}
+@media (max-width:760px){
+    .title{
+        text-align:center;
+    }
+   
+    .title-image {
+        width: 60%;
+        position:static;   
+    }
+}
+
+#features{
+    padding:7% 15%;
+    position:-1;
+}
+.feature-box{
+    padding:5%;
+    text-align:center;
+}
+.features-Heading{  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features-Heading span{
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+    font-weight: bold;
+    color: #f5566e;
+
+}
+.feature-box h3 {
+    font-family: "";
+    font-size:1.5rem;
+}
+.feature-box p{
+    color:#8f8f8f;
+}
+.icon {
+    color: #ef8172;
+    margin-bottom:1rem ;
+    
+}
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+#Instruction{
+    background-color: rgb(245, 244, 244);
+    text-align: center;
+    color:rgb(0, 0, 0);
+    height: 90%;
+    
+}
+.instruction-Heading{  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instruction-Heading span{
+    padding-top: 5rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f5566e;
+
+}
+
+.instruction_stmts{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+}
+@media (max-width=400xp) {
+    
+}
+#Instruction h2 {
+    font-family: "montserrat";
+    font-size :1.5rem;
+    padding: 2rem 2rem;
+    width: 40%;
+    
+    overflow: hidden;
+    
+ }
+ #Instruction img{
+    width: 40%; 
+    padding: 2rem 2rem;
+    overflow: hidden;
+ } 
+.carousel-item {
+    padding: 7% 15%;
+    
+}
+.instruction_stmts img {
+    position: relative;
+    left: 6rem;
+    bottom: 6rem;
+    height:600px;
+    padding-bottom: 3%;
+}
+
+@media (max-width:760px){
+
+    .instruction_stmts img {
+        text-align:center;
+        height:400px;
+    }
+}
+@media (max-width:414px){
+    
+    .instruction_stmts img {
+        display: hidden;
+    }
+  
+}
+#press {
+    
+    text-align:center;
+    padding-bottom:3%;
+}
+
+#press img{
+    width:15%;
+    margin:20px 20px 50px;
+}
+#pricing {
+    
+    padding: 7% 15%;
+    text-align:center;
+}
+.pricing-col{
+    padding:3% 2%;
+    
+}
+.card{
+    border: #8f8f8f solid 3px;
+
+}
+.card-header{
+    border-bottom: #8f8f8f solid 3px;
+}
+.card-body button{
+    border-width: 2px;
+}
+#footer{
+    background-color: #8f8f8f;
+    padding:7% 15%;
+    text-align:center;
+}
+.footer-icon{
+    padding:20px 10px;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+
+}
+.item img{
+    width: 20%;
+}
+.icon-next, .icon-prev{
+    font-size: 3rem;
+    font-weight: 600;
+}

@@ -1,0 +1,35 @@
+.main_container{
+    
+    background-color: #508bfc;;
+}
+.card{
+    border-radius: 1rem;   
+}
+form{
+    justify-content: center;
+    align-items: center;
+}
+ form .btn{
+    margin-top: 2rem ;
+    width: 80%;
+   
+    margin: .8rem .8rem;
+}
+.form-outline small{
+    display: absolute;
+    visibility: hidden;
+}
+.img-fluid{
+    margin-left: 4%;
+}
+.form-control1.success input{
+    border:2px solid rgb(26, 167, 26);
+}
+.form-control1.error input{
+    border:2px solid rgb(228, 29, 22);
+}
+.form-control1 small{
+    position:absolute;
+    margin: 3px;
+    visibility: hidden;
+}
